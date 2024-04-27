@@ -11,17 +11,19 @@ import UIKit
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color(.systemMint)
+            Color(.systemBlue)
                 .ignoresSafeArea()
             VStack {
                     Text("App Name")
                         .font(.largeTitle)
                         .fontWeight(.bold)
+                        .foregroundColor(Color.white)
                         .padding(.leading)
                         .frame(
                             maxWidth: .infinity,
                         alignment: .topLeading)
-            ProfileView()
+//           SignUpView()
+            LoginView()
                 
             }
             HStack(alignment: .top, spacing: 60){
