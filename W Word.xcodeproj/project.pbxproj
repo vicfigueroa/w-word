@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5502E7012BDFDB4400A2D37B /* ClickSavedWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502E7002BDFDB4400A2D37B /* ClickSavedWordView.swift */; };
+		55C52AF72BDFFECA00F18A69 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 55C52AF62BDFFECA00F18A69 /* .gitignore */; };
 		55D9BE162BD3468900F2C008 /* W_WordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9BE152BD3468900F2C008 /* W_WordApp.swift */; };
 		55D9BE182BD3468900F2C008 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9BE172BD3468900F2C008 /* ContentView.swift */; };
 		55D9BE1A2BD3468C00F2C008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D9BE192BD3468C00F2C008 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		5502E7002BDFDB4400A2D37B /* ClickSavedWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickSavedWordView.swift; sourceTree = "<group>"; };
+		55C52AF62BDFFECA00F18A69 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		55D9BE122BD3468900F2C008 /* W Word.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "W Word.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D9BE152BD3468900F2C008 /* W_WordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W_WordApp.swift; sourceTree = "<group>"; };
 		55D9BE172BD3468900F2C008 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		55D9BE092BD3468900F2C008 = {
 			isa = PBXGroup;
 			children = (
+				55C52AF62BDFFECA00F18A69 /* .gitignore */,
 				55D9BE142BD3468900F2C008 /* W Word */,
 				55D9BE132BD3468900F2C008 /* Products */,
 			);
@@ -174,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55D9BE1D2BD3468C00F2C008 /* Preview Assets.xcassets in Resources */,
+				55C52AF72BDFFECA00F18A69 /* .gitignore in Resources */,
 				55D9BE1A2BD3468C00F2C008 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
