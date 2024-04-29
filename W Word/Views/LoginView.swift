@@ -12,7 +12,7 @@ struct LoginView: View {
         ZStack {
             VStack {
              Image(systemName: "person.crop.circle.fill")
-                    .font(.system(size: 120, weight: .ultraLight))
+                    .font(.system(size: 200, weight: .ultraLight))
                     .foregroundColor(.blue)
                 .padding(.top, 30)
                 VStack {

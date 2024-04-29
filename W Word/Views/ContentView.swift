@@ -23,14 +23,22 @@ struct ContentView: View {
                             maxWidth: .infinity,
                         alignment: .topLeading)
 //           SignUpView()
-            LoginView()
+//            LoginView()
+                LikedWordsView(words: LikedWordsModel.sampleData)
+//                HomePageView()
+                Spacer()
+
                 
             }
             HStack(alignment: .top, spacing: 60){
                 Image(systemName: "book")
+                    .foregroundColor(.blue)
                 Image(systemName: "heart")
+                    .foregroundColor(.blue)
                 Image(systemName: "calendar")
+                    .foregroundColor(.blue)
                 Image(systemName: "person.crop.circle")
+                    .foregroundColor(.blue)
             }
             .font(.system(size: 35))
             .frame(maxWidth: .infinity)

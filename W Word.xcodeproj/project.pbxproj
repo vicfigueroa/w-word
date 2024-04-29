@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5502E7012BDFDB4400A2D37B /* ClickSavedWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502E7002BDFDB4400A2D37B /* ClickSavedWordView.swift */; };
 		55D9BE162BD3468900F2C008 /* W_WordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9BE152BD3468900F2C008 /* W_WordApp.swift */; };
 		55D9BE182BD3468900F2C008 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9BE172BD3468900F2C008 /* ContentView.swift */; };
 		55D9BE1A2BD3468C00F2C008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D9BE192BD3468C00F2C008 /* Assets.xcassets */; };
@@ -15,9 +16,13 @@
 		55E036D02BDC7715009405C4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E036CF2BDC7715009405C4 /* ProfileView.swift */; };
 		55E036D22BDC9419009405C4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E036D12BDC9419009405C4 /* LoginView.swift */; };
 		55E036D42BDC987C009405C4 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E036D32BDC987C009405C4 /* SignUpView.swift */; };
+		55E036D62BDD9025009405C4 /* LikedWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E036D52BDD9025009405C4 /* LikedWordsView.swift */; };
+		55E036D82BDD9513009405C4 /* LikedWordsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E036D72BDD9513009405C4 /* LikedWordsModel.swift */; };
+		55E036DC2BDD9D35009405C4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E036DB2BDD9D35009405C4 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5502E7002BDFDB4400A2D37B /* ClickSavedWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickSavedWordView.swift; sourceTree = "<group>"; };
 		55D9BE122BD3468900F2C008 /* W Word.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "W Word.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D9BE152BD3468900F2C008 /* W_WordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W_WordApp.swift; sourceTree = "<group>"; };
 		55D9BE172BD3468900F2C008 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +32,9 @@
 		55E036CF2BDC7715009405C4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		55E036D12BDC9419009405C4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		55E036D32BDC987C009405C4 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		55E036D52BDD9025009405C4 /* LikedWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedWordsView.swift; sourceTree = "<group>"; };
+		55E036D72BDD9513009405C4 /* LikedWordsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedWordsModel.swift; sourceTree = "<group>"; };
+		55E036DB2BDD9D35009405C4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,9 @@
 				55E036CF2BDC7715009405C4 /* ProfileView.swift */,
 				55E036D12BDC9419009405C4 /* LoginView.swift */,
 				55E036D32BDC987C009405C4 /* SignUpView.swift */,
+				55E036D52BDD9025009405C4 /* LikedWordsView.swift */,
+				55E036DB2BDD9D35009405C4 /* CardView.swift */,
+				5502E7002BDFDB4400A2D37B /* ClickSavedWordView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -92,6 +103,7 @@
 		55E748902BD8388400596C5B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				55E036D72BDD9513009405C4 /* LikedWordsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -174,6 +186,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				55E036D02BDC7715009405C4 /* ProfileView.swift in Sources */,
+				55E036DC2BDD9D35009405C4 /* CardView.swift in Sources */,
+				55E036D82BDD9513009405C4 /* LikedWordsModel.swift in Sources */,
+				5502E7012BDFDB4400A2D37B /* ClickSavedWordView.swift in Sources */,
+				55E036D62BDD9025009405C4 /* LikedWordsView.swift in Sources */,
 				55D9BE182BD3468900F2C008 /* ContentView.swift in Sources */,
 				55E036CE2BDC74BC009405C4 /* HomePageView.swift in Sources */,
 				55E036D22BDC9419009405C4 /* LoginView.swift in Sources */,
