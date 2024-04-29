@@ -21,7 +21,6 @@ struct SignUpView: View {
                     .foregroundColor(.blue)
             }
         
-
             ZStack{
                 Rectangle()
                     .fill(.blue)
